@@ -35,9 +35,9 @@ A helper function setupDatabase() resets the table with initial data before runn
 2. Run the provided SQL script `db_setup.sql` to create the table and insert initial data.
 
 ### Compile and Run Commands
-Download this repository:
-// git clone https://github.com/yourusername/COMP3005-A3-Students.git
-// cd COMP3005-A3-Students
+Download this repository:  
+git clone https://github.com/Jin8057/COMP3005_A3_Repository_Jin_Liu.git  
+cd COMP3005_A3_Repository_Jin_Liu
 #### Option-1
 1. Open the project in IntelliJ IDEA.
 2. Update the connection information (URL, USER, PASSWORD) in DatabaseConnection.java
