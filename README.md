@@ -48,7 +48,7 @@ cd COMP3005_A3_Repository_Jin_Liu
    mvn compile
 
    mvn exec:java -Dexec.mainClass=Main
-2. If exec-maven-plugin is not configured, you can also compile and run manually:
+2. If exec-maven-plugin is not configured, you can also compile and run manually (The postgresql-42.7.8.jar file is included in the /lib folder for convenience.):
 
    javac -d out src/main/java/*.java
 
