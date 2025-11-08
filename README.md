@@ -43,12 +43,7 @@ cd COMP3005_A3_Repository_Jin_Liu
 2. Update the connection information (URL, USER, PASSWORD) in DatabaseConnection.java
 3. Run Main in IntelliJ.
 #### Option-2
-1. Using Maven (Recommended if installed):
-
-   mvn compile
-
-   mvn exec:java -Dexec.mainClass=Main
-2. If exec-maven-plugin is not configured, you can also compile and run manually (The postgresql-42.7.8.jar file is included in the /lib folder for convenience.):
+1. Compile and run manually (The postgresql-42.7.8.jar file is included in the /lib folder for convenience.):
 
    javac -d out src/main/java/*.java
 
