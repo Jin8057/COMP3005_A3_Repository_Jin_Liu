@@ -4,27 +4,17 @@
 #### Student Number: 101344075
 #### Date: November 2025
 
-### Description
+### Design Explanation
 This project demonstrates how to connect a **PostgreSQL** database with a **Java (JDBC)** application to perform the four basic **CRUD operations** (Create, Read, Update, Delete) on a table named `students`.
 
-The assignment implements:
-- `getAllStudents()`: Retrieves and displays all records from the students table.
-- `addStudent()` : Inserts a new student record into the students table.
-- `updateStudentEmail()`: Updates the email address for a student with the specified student_id.
-- `deleteStudent()`: Deletes the record of the student with the specified student_id.
-
-### Design Explanation
 DatabaseConnection.java provides a reusable connect() method that establishes a JDBC connection to PostgreSQL.
 
 Main.java defines four clearly separated functions, each performing one CRUD operation:
 
-getAllStudents() → Reads and prints all student records.
-
-addStudent() → Inserts a new student using parameterized SQL (PreparedStatement).
-
-updateStudentEmail() → Updates a student’s email by ID.
-
-deleteStudent() → Deletes a record by ID.
+- `getAllStudents()`: Retrieves and displays all records from the students table.
+- `addStudent()` : Inserts a new student record into the students table.
+- `updateStudentEmail()`: Updates the email address for a student with the specified student_id.
+- `deleteStudent()`: Deletes the record of the student with the specified student_id.
 
 Each function prints clear output messages to the console for demonstration.
 
